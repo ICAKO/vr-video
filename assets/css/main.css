@@ -1,0 +1,104 @@
+#videojs-panorama-player {
+	width: 500px;
+	height: 350px;
+}
+
+.remove-vr {
+	cursor: pointer;
+}
+
+.remove-vr:hover {
+	color: red;
+}
+
+
+/* wp-list-table */
+
+.wp-list-table #vr__featuredimage {
+	width: 80px;
+}
+
+.wp-list-table .vr__featuredimage.column-vr__featuredimage img {
+	width: 80px;
+	height: 80px;
+}
+
+.vr_container {
+	position: relative;
+}
+
+.insert_logo img {
+	position: absolute;
+	z-index: 99999999999;
+	top: 0;
+	right: 0;
+	box-shadow: none !important;
+}
+
+.banner {
+	max-width: 468px;
+	width: 100%;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 99999999999;
+}
+
+.banner a,
+.banner img {
+	box-shadow: none !important;
+}
+
+.banner .close {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -24px;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+
+.banner .close:hover {
+	background-color: #333;
+}
+
+.banner .close > i {
+	color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/*
+#videojs-panorama-player:before {
+	content: ' ';
+	display: block;
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	background-image: url('../img/vrvideo-logo.png');
+	right: 0;
+	top: 0;
+	z-index: 9324234;
+}*/
+
+#videojs-panorama-player {
+	width: 100% !important;
+}
+
+.general_logo {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 0;
+	box-shadow: none !important;
+}
+
+.general_logo img {
+	box-shadow: none !important;
+}
